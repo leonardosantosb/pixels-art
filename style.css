@@ -1,9 +1,11 @@
 .color { border: 1px solid black;
   padding: 40px;
   display: inline-block;
+  font-size: 2px;
 }
 .black{
     background-color: black;
+    
 }
 .red{
     background-color: red;
@@ -13,5 +15,8 @@
 }
 .blue{
     background-color: blue;
+}
+#button-random-color {
+    margin-left: 350px;
 }
 
