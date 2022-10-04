@@ -7,14 +7,17 @@
     background-color: black;
     
 }
-.red{
-    background-color: red;
-}
 .green{
-    background-color: green;
+    background-color: rgb(38, 199, 52);
+    
 }
 .blue{
-    background-color: blue;
+    background-color: rgb(51, 43, 194);
+    
+}
+.red{
+    background-color: rgb(185, 14, 14);
+    
 }
 #button-random-color {
     margin-left: 350px;
