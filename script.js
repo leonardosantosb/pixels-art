@@ -1,6 +1,7 @@
 window.onload = function(){
 
     let button = document.getElementById("button-random-color")
+    let item0 = document.getElementsByTagName("div")[0]
     let item1 = document.getElementsByTagName("div")[1]
     let item2 = document.getElementsByTagName("div")[2]
     let item3 = document.getElementsByTagName("div")[3]
@@ -30,4 +31,8 @@ window.onload = function(){
     
     let corBrancaQuadrado = document.getElementById("pixel-board")
     corBrancaQuadrado.style.backgroundColor = "rgb(255,255,255"
+
+    document.getElementsByClassName("color")[0].className = "selected color"
+    
 }
+

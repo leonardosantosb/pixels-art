@@ -2,11 +2,9 @@
   padding: 40px;
   display: inline-block;
   font-size: 2px;
+  background-color: black;
 }
-.black{
-    background-color: black;
-    
-}
+
 .green{
     background-color: rgb(38, 199, 52);
     
