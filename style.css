@@ -2,21 +2,21 @@
   padding: 40px;
   display: inline-block;
   font-size: 2px;
-  background-color: black;
 }
 
-.green{
-    background-color: rgb(38, 199, 52);
-    
+#black1{
+    background-color: black;
 }
-.blue{
-    background-color: rgb(51, 43, 194);
-    
+#green1{
+    background-color: green;
 }
-.red{
-    background-color: rgb(185, 14, 14);
-    
+#red1{
+    background-color: red;
 }
+#blue1{
+    background-color: blue;
+}
+
 #button-random-color {
     margin-left: 350px;
 }

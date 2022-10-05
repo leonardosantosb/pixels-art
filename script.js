@@ -1,11 +1,9 @@
 window.onload = function(){
-
     let button = document.getElementById("button-random-color")
-    let item0 = document.getElementsByTagName("div")[0]
-    let item1 = document.getElementsByTagName("div")[1]
-    let item2 = document.getElementsByTagName("div")[2]
-    let item3 = document.getElementsByTagName("div")[3]
-
+    let item1 = document.getElementsByClassName("color")[1]
+    let item2 = document.getElementsByClassName("color")[2]
+    let item3 = document.getElementsByClassName("color")[3]
+    
     button.addEventListener("click", function(){
 
     let r = parseInt(Math.random() * 254);
@@ -34,5 +32,9 @@ window.onload = function(){
 
     document.getElementsByClassName("color")[0].className = "selected color"
     
+    let cores = document.getElementById("color-palette")
+    cores.addEventListener("click", function(){
+        
+    })
 }
 
