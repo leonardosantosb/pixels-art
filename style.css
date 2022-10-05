@@ -25,15 +25,17 @@
 
 #pixel-board {
     
-    height: 426px;
-    width: 408px;
+    padding: 40px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     margin-top: 50px;
+    position: fixed;
     
 }
 .pixel {
   padding: 40px;
   border: 1px solid black;
+  background-color: white;
+  color: white;
 }
