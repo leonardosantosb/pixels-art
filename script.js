@@ -1,11 +1,11 @@
 window.onload = function(){
 
-let button = document.getElementById("button-random-color")
-let item1 = document.getElementsByTagName("div")[1]
-let item2 = document.getElementsByTagName("div")[2]
-let item3 = document.getElementsByTagName("div")[3]
+    let button = document.getElementById("button-random-color")
+    let item1 = document.getElementsByTagName("div")[1]
+    let item2 = document.getElementsByTagName("div")[2]
+    let item3 = document.getElementsByTagName("div")[3]
 
-button.addEventListener("click", function(){
+    button.addEventListener("click", function(){
 
     let r = parseInt(Math.random() * 254);
 
@@ -27,4 +27,7 @@ button.addEventListener("click", function(){
     item2.style.backgroundColor = valorrgb2
     let valorrgb3 = localStorage.getItem("rgb3")
     item3.style.backgroundColor = valorrgb3
+    
+    let corBrancaQuadrado = document.getElementById("pixel-board")
+    corBrancaQuadrado.style.backgroundColor = "rgb(255,255,255"
 }
