@@ -32,9 +32,17 @@ window.onload = function(){
 
     document.getElementsByClassName("color")[0].className = "selected color"
     
-    let cores = document.getElementById("color-palette")
+    let cores = document.getElementsByClassName("color")
+    cores.addEventListener("click", function(event){
+            let acessaClasse = event.target;
+            let classeSalva = acessaClasse.className
+            let idSalva = acessaClasse.id;   
+            console.log(idSalva)       
+    })
+
     cores.addEventListener("click", function(){
         
-    })
+        for (let index = 0; index < c)
+    }
 }
 
