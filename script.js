@@ -28,21 +28,16 @@ window.onload = function(){
     item3.style.backgroundColor = valorrgb3
     
     let corBrancaQuadrado = document.getElementById("pixel-board")
-    corBrancaQuadrado.style.backgroundColor = "rgb(255,255,255"
-
-    document.getElementsByClassName("color")[0].className = "selected color"
+    corBrancaQuadrado.style.backgroundColor = "rgb(255,255,255";
+      
+    let cores = document.getElementById ('color-Pallet');
+    cores.addEventListener('click', function (event) {
+    let selectedColor = document.getElementsByClassName('selected') 
+    selectedColor.classList.remove('selected')
+    event.target.classList.add('selected');
     
-    let cores = document.getElementsByClassName("color")
-    cores.addEventListener("click", function(event){
-            let acessaClasse = event.target;
-            let classeSalva = acessaClasse.className
-            let idSalva = acessaClasse.id;   
-            console.log(idSalva)       
     })
 
-    cores.addEventListener("click", function(){
-        
-        for (let index = 0; index < c)
-    }
+    
 }
 
