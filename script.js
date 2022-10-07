@@ -30,13 +30,13 @@ window.onload = function(){
     let corBrancaQuadrado = document.getElementById("pixel-board")
     corBrancaQuadrado.style.backgroundColor = "rgb(255,255,255";
       
-    let cores = document.getElementById ('color-Pallet');
-    cores.addEventListener('click', function (event) {
-    let selectedColor = document.getElementsByClassName('selected') 
-    selectedColor.classList.remove('selected')
-    event.target.classList.add('selected');
+    //let cores = document.getElementById ('color-Pallet');
+    //cores.addEventListener('click', function (event) {
+        //let selectedColor = document.getElementsByClassName('selected') 
+        //selectedColor.classList.remove('selected')
+        //event.target.classList.add('selected');
     
-    })
+        //})
 
     
 }
