@@ -31,17 +31,36 @@ window.onload = function(){
     corBrancaQuadrado.style.backgroundColor = "rgb(255,255,255";
 
     document.getElementsByClassName('color')[0].classList.add('selected')
+    document.getElementsByClassName('color')[0].style.backgroundColor = 'rgb(0,0,0'
       
     let conjuntoDeCores = document.getElementById("color-palette")
     
-    
+    let corr = 'black'
+    let quadroDePixels = document.getElementById('pixel-board')
+    quadroDePixels.addEventListener("click", function(event){
+    event.target.style.backgroundColor = corr})
     
         conjuntoDeCores.addEventListener("click", function(event){
         let excluir = document.querySelector('.selected')
         excluir.classList.remove('selected')
         event.target.classList.add("selected")
+
+        let corr = event.target.style.backgroundColor
+        let quadroDePixels = document.getElementById('pixel-board')
+        quadroDePixels.addEventListener("click", function(event){
+        event.target.style.backgroundColor = corr
+            })
         
         })
+        
+        // let quadroDePixels = document.getElementById('pixel-board')
+        // quadroDePixels.addEventListener("click", function(event){
+        // let localizaClasse = document.getElementsByClassName('selected')
+        // event.target.classList.add('selected')
+         
+        // console.log(corAtual) 
+        // })
+
         
        let button2 = document.getElementById('clear-board')
        button2.addEventListener('click', function(){
