@@ -12,6 +12,10 @@ window.onload = function () {
 
     let b = parseInt(Math.random() * 254);
 
+    localStorage.setItem("colorPalette", 'rgb(0,255,0' );
+    localStorage.setItem("rgb2", 'rgb(255,0,0');
+    localStorage.setItem("rgb3", 'rgb(0,0,255');
+
     item1.style.backgroundColor = 'rgb(' + r + ',' + g + ',' + b + ')';
     localStorage.setItem("colorPalette", 'rgb(' + r + ',' + g + ',' + b + ')');
     item2.style.backgroundColor = 'rgb(' + g + ',' + b + ',' + r + ')';
@@ -32,6 +36,9 @@ window.onload = function () {
 
   document.getElementsByClassName('color')[0].classList.add('selected');
   document.getElementsByClassName('color')[0].style.backgroundColor = 'rgb(0,0,0';
+  item1.style.backgroundColor = 'rgb(0,255,0';
+  item2.style.backgroundColor = 'rgb(255,0,0';
+  item3.style.backgroundColor = 'rgb(0,0,255';
 
   let conjuntoDeCores = document.getElementById("color-palette");
 
