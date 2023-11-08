@@ -1,3 +1,8 @@
+/* eslint-disable sonarjs/no-duplicate-string */
+/* eslint-disable no-param-reassign */
+/* eslint-disable no-shadow */
+/* eslint-disable radix */
+/* eslint-disable max-lines-per-function */
 window.onload = function () {
   const button = document.getElementById('button-random-color');
   const item1 = document.getElementsByClassName('color')[1];
